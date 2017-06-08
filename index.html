@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+
+    <!-- VENDOR SCRIPTS -->
+    <script src="/vendor/angular/angular.js"></script>
+    <script src="/vendor/angular-route/angular-route.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    <script src="/scripts/app.js"></script>
+    <script src="/scripts/controllers/PokemonsIndexController.js"></script>
+    <script src="/scripts/controllers/PokemonsController.js"></script>
+
+    <title>Rolo-mon!</title>
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <a href="/"><h1>Rolo-mon!</h1></a>
+        <p>Your rolodex of Pokemon!</p>
+      </div>
+    </div>
+
+    <div ng-view></div>
+
+  </body>
+
+</html>
